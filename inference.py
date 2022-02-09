@@ -53,7 +53,7 @@ while True:
 			cv2.putText(window, pred , (180,180),cv2.FONT_ITALIC, 1.3, (0,255,0),2)
 
 		else:
-			cv2.putText(window, "Asana is either wrong not trained" , (100,180),cv2.FONT_ITALIC, 1.8, (0,0,255),3)
+			cv2.putText(window, "The coach is either wrong not trained" , (100,180),cv2.FONT_ITALIC, 1.8, (0,0,255),3)
 
 	else: 
 		cv2.putText(frm, "Make Sure Full body visible", (100,450), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,0,255),3)
