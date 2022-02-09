@@ -29,8 +29,7 @@ while True:
 
 	_, frm = cap.read()
 
-	frm = cv2.flip(frm, 1)
-
+	
 	res = holis.process(cv2.cvtColor(frm, cv2.COLOR_BGR2RGB))
 
 	if res.pose_landmarks and inFrame(res.pose_landmarks.landmark):
