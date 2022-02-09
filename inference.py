@@ -1,5 +1,5 @@
 """Yoga coach
-	author : Wajdi HELAWI 
+	author : Wajdi HELAWI and Othmane ATTOU 
 	version 1.0
 		date 20/01/2022
 """
